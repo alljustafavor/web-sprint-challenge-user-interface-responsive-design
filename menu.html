@@ -4,9 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sprint Challenge - Menu</title>
-
+    <link rel="stylesheet" href="css/menu.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
 </head>
@@ -14,23 +14,33 @@
 <body>
     <div>
         <!-- header -->
-        <header>
-            BLOOMTECH BAR AND GRILL
-
-            <!-- nav -->
-            Menu
-            Reservations
-            Special Offers
-            Contact
-        </header>
+        <header title="BOOMTECH BAR AND GRILL">
+			<div class="nav-container">
+				<a href="/index.html"><h1>BLOOMTECH BAR AND GRILL</h1></a>
+				<nav>
+					<div class="links">
+						<a href="menu.html">Menu</a>
+						<a href="http://">Reservations</a>
+						<a href="http://">Special Offers</a>
+						<a href="http://">Contact</a>
+					</div>
+					<div class="social">
+						<a href="http://instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+						<a href="http://facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook-square"></i></a>
+						<a href="http://twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a>
+					</div>
+					
+				</nav>
+			</div>
+			</header>
 
         <!-- spacer -->
         <div class="spacer"></div>
 
         <!-- menu -->
-        <article class="menu">
+        <article class="menu" title="menu">
             Food & Drink
-
+                <section class="drinks">
                 Drinks
                     Soda
                     $2
@@ -51,7 +61,8 @@
                     Cocktail
                     $10
                     Ask about our specials
-
+                </section>
+                <section class="appetizers">   
                 Appetizers
                     Fried Pickles
                     $6
@@ -66,7 +77,8 @@
                     Poutine
                     $5
                     Homemade fries topped with everything but the kitchen sink
-
+                </section> 
+                <section class="soup-salad"> 
                 Soup and Salad
                     House Salad
                     $8
@@ -81,7 +93,8 @@
                     $5
                     Creamy and filling
                     (GF)
-                    
+                </section>   
+                <section class="entrees"></section>    
                 Entrees
                     Ribeye Steak
                     $32
