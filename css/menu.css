@@ -81,20 +81,57 @@ h3 {
 h4 {
     font-size: 4rem;
 }
-
-p, a {
+a, p {
+    text-decoration: none;
+    color: white;
+    
+}
+a {
     font-size: 3rem;
 }
-
 /* header section */
 header {
     width: 100%;
     height: 100vh;
-    background-image: url('../img/menu-header.jpg');
+    background-image: url('../img/home-header.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    color: white;
 }
+
+.nav-container {
+    width: 100%;
+    background-color: rgb(0, 4, 17, .8);
+    height: 22vh;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    width: 100%;
+    color: white;
+    font-size: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+}
+
+  .social {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+  }
 
 /* spacer */
 .spacer {
@@ -114,11 +151,41 @@ header {
     width: 100%;
     height: auto;
     background-image: url('../img/staff-bartender.jpg');
-    background-color: rgb(0, 4, 17);
+    background-color: rgb(0, 4, 17, .8);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.menu h2 {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(0, 4, 17, .8);
+    color: white;
+}
+
+.menu-container {
+    background-color: rgb(0, 4, 17, .8);
+    color: white;
+    width: 100%;
+}
+
+.menu-section {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 45%;
+    }
+
+.menu-sectio    
+
+.menu-item {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: center;
+    width: 100%;
+}
+
 
 /* footer section */
 footer {
